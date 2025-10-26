@@ -65,7 +65,7 @@ mysql -P5900 -h <IP> -u admin
 # SHOW DATABASES; USE mydb; SHOW TABLES; SELECT * FROM users;
 ```
 
-Screenshot:
+Screenshot:     
 ![mysql](screenshots/plot_mysql.png)
 
 ---
@@ -129,7 +129,7 @@ nc -nvlp <PORT>
 
 Once cron runs, rsync interprets the injected `-e` option and runs `sh shell.sh`, which executes our reverse shell and gives `plot_admin`.
 
-Screenshot:
+Screenshot:     
 ![presc](screenshots/plot_presc.png)
 
 ---
@@ -155,7 +155,7 @@ cat /root/root.txt
 
 This prints the root flag.
 
-Screenshots:
+Screenshots:      
 ![fowner](screenshots/plot_fowner.png)
 ![root](screenshots/plot_root.png)
 
